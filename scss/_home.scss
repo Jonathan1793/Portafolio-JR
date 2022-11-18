@@ -1,0 +1,26 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url("https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/e8/77/e8779470-2692-40b2-ba1ee2ece5ae11c1.component.xl.ts=1629061477152.jpg/content/adobe-cms/us/en/topics/cybersecurity/_jcr_content/root/leadspace");
+  background-size: cover;
+
+  &-name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid setTextColor($primary-color);
+
+    &-last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+}
